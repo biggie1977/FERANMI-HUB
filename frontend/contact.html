@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STYLEDBYGBABY | Contact</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a class="brand" href="index.html">STYLEDBYGBABY</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+            <a href="philosophy.html">Style philosophy</a>
+            <a href="looks.html">Selected looks</a>
+            <a href="projects.html">Styling projects</a>
+            <a href="mood.html">Mood board</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container contact-grid">
+            <div>
+                <div class="page-header">
+                    <h2>Contact</h2>
+                </div>
+                <p>For bookings, enquiries or collaborations, send a message or find me on socials.</p>
+                <p>Instagram: @heisgbaby<br>TikTok: heis_gbaby<br>Snapchat: Heisgbaby</p>
+                <div class="tagline">Let's get fly<br>together.</div>
+            </div>
+
+            <form id="contact-form" class="light-section" style="padding:28px;">
+                <label>Name
+                    <input name="name" required autocomplete="name">
+                </label>
+                <label>Email
+                    <input name="email" type="email" required autocomplete="email">
+                </label>
+                <label>What do you need?
+                    <select name="service">
+                        <option>Personal styling</option>
+                        <option>Personal shopping</option>
+                        <option>Outfit curation</option>
+                        <option>Artist and creative styling</option>
+                    </select>
+                </label>
+                <label>Message
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <button class="button" type="submit" style="background:var(--ink);color:var(--paper);">Send
+                    enquiry</button>
+                <div id="status" class="status" role="status"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <span>STYLEDBYGBABY</span>
+        <span>Get fly. Stay real. © 2026</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
